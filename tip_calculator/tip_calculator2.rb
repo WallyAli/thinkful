@@ -16,8 +16,8 @@ total_cost = meal_with_tax + tip_value
 
 
 puts "The pre-tax cost of your meal is $%.2f." % [cost_of_meal]
-puts "At a tax rate of %d%%, total tax for this meal is $%.2f" % [tax_rate, tax_value]
-puts "At a tip rate of %d%%, your should tip $%.2f." % [tip_rate, tip_value]	
+puts "At a tax rate of %.2f%%, total tax for this meal is $%.2f" % [tax_rate, tax_value]
+puts "At a tip rate of %.2f%%, your should tip $%.2f." % [tip_rate, tip_value]	
 puts "The total cost for this meal is $%.2f. Thanks." % [total_cost]
 
 
